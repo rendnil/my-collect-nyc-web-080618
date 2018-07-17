@@ -5,7 +5,7 @@ def my_collect(array)
   modified_array = [ ]
   while i < array.length
   
-  modified array[i] = yield array[i]
+  modified_array[i] = yield array[i]
   i+=1
   
   
